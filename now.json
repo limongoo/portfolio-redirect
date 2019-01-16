@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "alias": [
+        "www.ivanlimongan.com"
+    ],
+    "routes": [
+        { 
+            "src": "/(.*)", 
+            "status": 301, 
+            "headers": 
+                {
+                    "Location": "https://ivanlimongan.com/$1"
+                }
+        }
+    ]
+}
